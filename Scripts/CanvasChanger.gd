@@ -20,7 +20,7 @@ func _on_Color_Changing_Timer_timeout():
 	if not colorchanged:
 		print('boo m')
 		colornumber += 0.1
-		if colornumber >= 1.0:
+		if colornumber >= 0.9:
 			timer.stop()
 			colorchanged = true
 			print(colornumber)
