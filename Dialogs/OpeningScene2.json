@@ -1,0 +1,58 @@
+[
+    {
+        "name": "???",
+        "dialog": "I have selected you for the mission"
+    },
+    {
+        "name": "Me",
+        "dialog": "Oh! Thanks! By The Way What is the mission"  
+    },
+    {
+        "name": "???",
+        "dialog": "We will launch the rocket tomorow"
+    },
+    {
+        "name": "Me",
+        "dialog": "What! But I am Inexperienced, I would need some training"
+    },
+    {
+        "name": "???",
+        "dialog": "Our Team knows that you are one of the best sharpshooter"
+    },
+    {
+        "name": "Me",
+        "dialog": "So What About That Do We Need To Destroy The Moon!"
+    },
+    {
+        "name": "???",
+        "dialog": "There are some big asetroids coming to the moon"
+    },
+    {
+        "name": "Me",
+        "dialog": "So, You mean I am needed to Destroy The Asetroid"
+    },
+    {
+        "name": "???",
+        "dialog": "Yes.... And One More thing I need to tell to you"
+    },
+    {
+        "name": "???",
+        "dialog": "There is some blacksheep stealing our data and sending to the other base"    
+    },
+    {
+        "name": "???",
+        "dialog": "I may suspect that the team accidently sends a blacksheep to this mission"
+    },
+    {
+        "name": "Me",
+        "dialog": "Are you kidding me Jason"
+    },
+    {
+        "name": "Jason(???)",
+        "dialog": "This is serious Alex"
+    },
+    {
+        "name": "Alex(Me)",
+        "dialog": "OK Dude, I will be careful"
+    }
+]
