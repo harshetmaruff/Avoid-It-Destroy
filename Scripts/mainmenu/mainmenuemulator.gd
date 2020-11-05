@@ -17,4 +17,4 @@ func _ready():
 
 
 func _on_PlayButton_pressed():
-	get_tree().change_scene("res://Charcters/Alex/AlexDemo.tscn")
+	get_tree().change_scene("res://Scenes/Scene2.tscn")
