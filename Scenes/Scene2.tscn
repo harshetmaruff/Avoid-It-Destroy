@@ -1,8 +1,20 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Scripts/Scene2.gd" type="Script" id=1]
 [ext_resource path="res://Dialog_Bar.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Charcters/pincy.png" type="Texture" id=3]
+[ext_resource path="res://Scripts/Scene2/SLIDEOVER.gd" type="Script" id=4]
 
 [node name="Scene2" type="Node2D"]
 script = ExtResource( 1 )
 dialogbar = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 512, -100 )
+scale = Vector2( 5, 5 )
+texture = ExtResource( 3 )
+script = ExtResource( 4 )
+
+[node name="Timer" type="Timer" parent="Sprite"]
+wait_time = 0.1
+[connection signal="timeout" from="Sprite/Timer" to="Sprite" method="_on_Timer_timeout"]
