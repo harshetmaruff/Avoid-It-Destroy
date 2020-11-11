@@ -2,6 +2,8 @@ extends KinematicBody2D
 
 
 var motion = Vector2()
+var facingdirection = Vector2()
+# 22/1/2021
 var hp = 50 
 var Character
 var sprite
@@ -9,7 +11,7 @@ var sprite
 func _ready():
 	pass # Replace with function body.
 
-func move_it():
+func move_it(direction):
 	pass
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
