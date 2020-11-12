@@ -9,10 +9,21 @@ var Character
 var sprite
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	set_process(true)
+	facingdirection.x = 0
+	facingdirection.y = 1
+	print(facingdirection)
 
 func move_it(direction):
-	pass
+	print(direction)
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func _process(delta):
+	var the_current_pos = get_position()
+	if Input.is_action_pressed("PlayerUp") and not Input.is_action_pressed("PlayerDown"):
+		move_it("Up")
+	if Input.is_action_pressed("PlayerDown") and not Input.is_action_pressed("PlayerUp"):
+		move_it("Down")
+	if Input.is_action_pressed("PlayerLeft") and not Input.is_action_pressed("PlayerRight"):
+		move_it("Left")
+	if Input.is_action_pressed("PlayerRight") and not Input.is_action_pressed("PlayerLeft"):
+		move_it("Right")

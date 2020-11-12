@@ -15,17 +15,17 @@ animations = [ {
 }, {
 "frames": [  ],
 "loop": true,
+"name": "back_stand",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
 "name": "left_stand",
 "speed": 5.0
 }, {
 "frames": [  ],
 "loop": true,
 "name": "right_stand",
-"speed": 5.0
-}, {
-"frames": [  ],
-"loop": true,
-"name": "back_stand",
 "speed": 5.0
 } ]
 
