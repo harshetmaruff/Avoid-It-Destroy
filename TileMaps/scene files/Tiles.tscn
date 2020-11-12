@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Images/Tiles/floortile.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="floortile" type="Sprite" parent="."]
+position = Vector2( 154.932, 220.504 )
+texture = ExtResource( 1 )
