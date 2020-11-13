@@ -1,13 +1,24 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Images/Character/Alex/png files/Alex.png" type="Texture" id=1]
 [ext_resource path="res://Charcters/Scripts/Player.gd" type="Script" id=2]
+[ext_resource path="res://Images/Character/Alex/png files/AlexRightSide.png" type="Texture" id=3]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 51, 81 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
+"frames": [ ExtResource( 1 ) ],
+"loop": true,
+"name": "front_stand",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "right_stand",
+"speed": 5.0
+}, {
 "frames": [  ],
 "loop": true,
 "name": "back_stand",
@@ -16,16 +27,6 @@ animations = [ {
 "frames": [  ],
 "loop": true,
 "name": "left_stand",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 1 ) ],
-"loop": true,
-"name": "front_stand",
-"speed": 5.0
-}, {
-"frames": [  ],
-"loop": true,
-"name": "right_stand",
 "speed": 5.0
 } ]
 
